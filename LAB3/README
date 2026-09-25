@@ -1,0 +1,56 @@
+ QUẢN LÝ KHÁCH SẠN
+Đây là project Quản lý Khách sạn được thực hiện bằng Java nhằm hỗ trợ quản lý các thông tin và hoạt động cơ bản trong khách sạn. Project được thực hiện trong quá trình học để thực hành lập trình Java, kết nối cơ sở dữ liệu và quản lý mã nguồn bằng GitHub.
+
+Chức năng
+- Quản lý thông tin khách hàng
+- Quản lý phòng khách sạn
+- Thêm, sửa, xóa thông tin
+- Tìm kiếm thông tin khách hàng và phòng
+- Quản lý việc đặt phòng
+- Quản lý nhận phòng và trả phòng
+- Theo dõi tình trạng phòng
+- Lưu trữ và cập nhật dữ liệu trong cơ sở dữ liệu
+
+ Công nghệ sử dụng
+- Java
+- JDBC
+- Microsoft SQL Server
+- Maven
+- Visual Studio Code
+- Git và GitHub
+
+Cách hoạt động
+Người dùng thao tác trên chương trình Java. Dữ liệu sau khi được xử lý sẽ kết nối đến SQL Server thông qua JDBC để lưu trữ và lấy thông tin khi cần.
+
+  text
+Người dùng
+    ↓
+Chương trình Java
+    ↓
+   JDBC
+    ↓
+SQL Server
+
+
+Cơ sở dữ liệu được sử dụng để lưu trữ các thông tin chính như:
+-Thông tin khách hàng
+-Thông tin phòng
+-Thông tin đặt phòng
+-Thông tin nhận và trả phòng
+
+Cách chạy chương trình
+-Cài đặt Java và Maven.
+-Cài đặt Microsoft SQL Server.
+-Tạo cơ sở dữ liệu và chạy file SQL.
+-Kiểm tra lại thông tin kết nối cơ sở dữ liệu trong chương trình.
+-Mở project bằng Visual Studio Code.
+-Chạy chương trình Java.
+
+Cấu trúc project
+LAB3/
+├── DBConnection.java
+├── QuanLyKhachSan.java
+├── TestConnection.java
+├── SQLQuery1.sql
+├── pom.xml
+└── README.md
